@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="icon" href="img/Logo.png" type="image/x-icon">
+    <title>LOJA X</title>
+</head>
+
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <!-- CONTANER DO HEADER -->
+        <section class="col-header">
+            <section class="logo"><a href=""><img src="img/Logo-removebg-preview.png" alt=""></a></section>
+            <section class="topics">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">DESTAQUE</a></li>
+                    <li><a href="#">HOMEM</a></li>
+                    <li><a href="#">MULHER</a></li>
+                </ul>
+            </section>
+            <nav>
+                <ul>
+                    <section class="search" >
+                        <input type="search" placeholder="Buscar" >
+                    </section>
+                    <li><a href=""><img src="img/ICONS/do-utilizador.png" alt=""></a></li>
+                    <li><a href=""><img src="img/ICONS/carrinho-carrinho.png" alt=""></a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <!-- CONTEUDO PRINCPAL -->
+    <main>
+        <div class="col-main">
+
+            <div class="text-princ">
+                <div class="title">
+                    <p>Chuteira</p>
+                    <h2>Nike Mercurial </h2>
+                </div>
+                <!-- Descrição genérica com Lorem Ipsum -->
+                <div class="sub">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, </p>
+                </div>
+                <!-- Preço do produto e botão para adquiri-lo -->
+                <div class="btn">
+                    <p>R$259,99</p>
+                    <!-- Botão que chama a função verProduto com os detalhes do produto -->
+                    <button
+                        onclick="verProduto('img/Produtos/Produto1/pngwing.com.png', 259.99, 'img/Produtos/Produto1/pngwing.com.png', 'img/Produtos/Produto1/chuteira2.webp', 'img/Produtos/Produto1/chuteira3.webp', 'Nike')">ADQUIRIR</button>
+                </div>
+                <!-- Ícones de redes sociais para compartilhar ou seguir -->
+                <div class="icons">
+                    <div class="link">
+                        <a href="https://github.com/AllisonALDS" target="_blank"><img src="img/ICONS/github.png" alt=""></a>
+                    </div>
+                    <div class="link">
+                        <a href="https://www.linkedin.com/in/allison-a-500165255/" target="_blank" ><img src="img/ICONS/linkedin.png" alt=""></a>
+                    </div>
+                    <div class="link">
+                        <a href=""><img src="img/ICONS/instagram.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Imagem da chuteira principal -->
+            <div class="product">
+                <img src="img/Produtos/Produto1/pngwing.com.png" alt="">
+            </div>
+        </div>
+
+        <div class="container">
+
+
+            <div class="col-main2">
+                <!-- Título da seção de produtos em destaque -->
+                <div class="title">
+                    <h1>Produtos Em Destaque</h1>
+                </div>
+                <section>
+                    <div class="col-box">
+                        <!-- Primeiro produto -->
+                        <div class="box1">
+                            <!-- Imagem do primeiro produto -->
+                            <div class="shoes1">
+                                <img Src="img/Produtos/Foto tenis sem fundo/jd/aqui2/AirJordan1HighChicagoLostandFound_Prancheta1-removebg-preview (1).png"
+                                    alt="">
+                            </div>
+                            <!-- Nome do produto -->
+                            <div class="title-product">
+                                <p>Tênis Adidas Breaknet</p>
+                            </div>
+                            <!-- Preço do produto -->
+                            <div class="price">
+                                <p>R$<span>199,99</span></p>
+                            </div>
+                            <!-- Botão para adquirir o produto -->
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produtos/Produto2/tenis1.png', 199.99, 'img/Produtos/Produto2/tenis1.png', 'img/Produtos/Produto2/tenis2.png', 'img/Produtos/Produto2/tenis3.png', 'ADIDAS')">ADQUIRIR</button>
+                            </div>
+                        </div>
+
+                        <!-- Segundo produto (estrutura igual ao primeiro) -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img Src="img/Produtos/Foto tenis sem fundo/Aqui/2IC-1864-014_zoom1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Adidas Breaknet</p>
+                            </div>
+                            <div class="price">
+                                <p>R$<span>199,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produtos/Produto2/tenis1.png', 199.99, 'img/Produtos/Produto2/tenis1.png', 'img/Produtos/Produto2/tenis2.png', 'img/Produtos/Produto2/tenis3.png', 'ADIDAS')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Terceiro produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img Src="img/Produtos/Foto tenis sem fundo/jd/aqui2/AirJordan1HighNextChapter_Prancheta1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Adidas Breaknet</p>
+                            </div>
+                            <div class="price">
+                                <p>R$<span>199,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produtos/Produto2/tenis1.png', 199.99, 'img/Produtos/Produto2/tenis1.png', 'img/Produtos/Produto2/tenis2.png', 'img/Produtos/Produto2/tenis3.png', 'ADIDAS')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Quarto produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img Src="img/Produtos/Foto tenis sem fundo/Aqui/JD8-6800-014_zoom1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Adidas Breaknet</p>
+                            </div>
+                            <div class="price">
+                                <p>R$<span>199,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produtos/Produto2/tenis1.png', 199.99, 'img/Produtos/Produto2/tenis1.png', 'img/Produtos/Produto2/tenis2.png', 'img/Produtos/Produto2/tenis3.png', 'ADIDAS')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="col-bar">
+                <div class="bar">
+                    <!-- Primeiro item da barra -->
+                    <div class="bar1">
+                        <div class="icon">
+                            <img src="img/ICONS/Black Green Futuristic Technology Company Logo (1).png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Pagamentos</p>
+                            <span>Parcele em até 12x</span>
+                        </div>
+                    </div>
+
+                    <!-- Segundo item da barra -->
+                    <div class="bar1">
+                        <div class="icon">
+                            <img src="img/ICONS/Black Green Futuristic Technology Company Logo.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Segurança</p>
+                            <span>Segurança Garantida pela X</span>
+                        </div>
+                    </div>
+
+                    <!-- Terceiro item da barra -->
+                    <div class="bar1">
+                        <div class="icon">
+                            <img src="img/ICONS/Black Green Futuristic Technology Company Logo (2).png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Entrega</p>
+                            <span>Entrega Mais Rapida do Brasil</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="banner" >
+                <img src="img/Banner para loja online de calçados com parcelamentos verde e branco (1).png" alt="">
+            </section>
+
+            <div class="col-main2" id="col-main3">
+                <div class="title">
+                    <div class="airmax">
+                        <img src="img/Produtos/Foto tenis sem fundo/Aqui/2IC-1864-014_zoom1-removebg-preview.png"
+                            alt="">
+                        <div class="texts">
+                            <p class="category">Tenis</p>
+                            <p>Air max</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <section>
+                    <div class="col-box">
+                        <!-- Primeiro produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <!-- Imagem do primeiro produto -->
+                                <img Src="img/Produtos/Foto tenis sem fundo/Aqui/JD8-2004-026_zoom1-removebg-preview (1).png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <!-- Nome do primeiro produto -->
+                                <p>Tênis Adidas Breaknet</p>
+                            </div>
+                            <div class="price">
+                                <!-- Preço do primeiro produto -->
+                                <p>R$<span>199,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <!-- Botão para adquirir o primeiro produto -->
+                                <button
+                                    onclick="verProduto('img/Produtos/Produto2/tenis1.png', 'Tênis Adidas Breaknet',    199.99, 'Para um melhor ajuste nos pés, recomendamos a compra de um tamanho menor do que o seu usual. ', 'blue', 'Green', 'Black', 'img/Produtos/Produto2/tenis1.png', 'img/Produtos/Produto2/tenis2.png', 'img/Produtos/Produto2/tenis3.png', '37', '38', '39', '40')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Segundo produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <!-- Imagem do segundo produto -->
+                                <img src="img/Produtos/Foto tenis sem fundo/Aqui/JD8-6800-014_zoom1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <!-- Nome do segundo produto -->
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <!-- Preço do segundo produto -->
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <!-- Botão para adquirir o segundo produto -->
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img src="img/Produtos/Foto tenis sem fundo/Aqui/JD8-8100-042_zoom1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img src="img/Produtos/Foto tenis sem fundo/Aqui/JD8-8101-014_zoom1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img Src="img/Produtos/Foto tenis sem fundo/Aqui/tenis.png-removebg-preview.png" alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Adidas Breaknet</p>
+                            </div>
+                            <div class="price">
+                                <p>R$<span>199,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produtos/Produto2/tenis1.png', 'Tênis Adidas Breaknet',    199.99, 'Para um melhor ajuste nos pés, recomendamos a compra de um tamanho menor do que o seu usual. ', 'blue', 'Green', 'Black', 'img/Produtos/Produto2/tenis1.png', 'img/Produtos/Produto2/tenis2.png', 'img/Produtos/Produto2/tenis3.png', '37', '38', '39', '40')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img src="img/Produtos/Foto tenis sem fundo/Aqui/1.png" alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img src="img/Produtos/Foto tenis sem fundo/Aqui/2.png" alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img src="img/Produtos/Foto tenis sem fundo/jd/aqui2/jordan1uncaluminum_Prancheta1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="col-main2" id="col-main4">
+
+                <div class="title">
+                    <div class="airmax">
+                        <div class="texts">
+                            <p class="category">Tenis</p>
+                            <p>Air Jordan</p>
+                        </div>
+                        <img src="img/Produtos/Produto2/pngwing.com (2).png" alt="">
+                    </div>
+
+                </div>
+
+                <section>
+                    <div class="col-box">
+                        <!-- Primeiro produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <!-- Imagem do primeiro produto -->
+                                <img Src="img/Produtos/Foto tenis sem fundo/jd/aqui2/AirJordan1HighChicagoLostandFound_Prancheta1-removebg-preview (1).png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <!-- Nome do primeiro produto -->
+                                <p>Tênis Adidas Breaknet</p>
+                            </div>
+                            <div class="price">
+                                <!-- Preço do primeiro produto -->
+                                <p>R$<span>199,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <!-- Botão para adquirir o primeiro produto -->
+                                <button
+                                    onclick="verProduto('img/Produtos/Produto2/tenis1.png', 'Tênis Adidas Breaknet',    199.99, 'Para um melhor ajuste nos pés, recomendamos a compra de um tamanho menor do que o seu usual. ', 'blue', 'Green', 'Black', 'img/Produtos/Produto2/tenis1.png', 'img/Produtos/Produto2/tenis2.png', 'img/Produtos/Produto2/tenis3.png', '37', '38', '39', '40')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Segundo produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <!-- Imagem do segundo produto -->
+                                <img src="img/Produtos/Foto tenis sem fundo/jd/aqui2/AirJordan1HighNextChapter_Prancheta1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <!-- Nome do segundo produto -->
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <!-- Preço do segundo produto -->
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <!-- Botão para adquirir o segundo produto -->
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Terceiro produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <!-- Imagem do terceiro produto -->
+                                <img src="img/Produtos/Foto tenis sem fundo/jd/aqui2/AirJordan1LowPanda_Prancheta1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <!-- Nome do terceiro produto -->
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <!-- Preço do terceiro produto -->
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <!-- Botão para adquirir o terceiro produto -->
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Quarto produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img src="img/Produtos/Foto tenis sem fundo/jd/aqui2/AirJordan1LowSunsetHaze-02-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Quinto produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img Src="img/Produtos/Foto tenis sem fundo/jd/aqui2/AirJordan1MidIceBlue_Prancheta1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Adidas Breaknet</p>
+                            </div>
+                            <div class="price">
+                                <p>R$<span>199,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produtos/Produto2/tenis1.png', 'Tênis Adidas Breaknet',    199.99, 'Para um melhor ajuste nos pés, recomendamos a compra de um tamanho menor do que o seu usual. ', 'blue', 'Green', 'Black', 'img/Produtos/Produto2/tenis1.png', 'img/Produtos/Produto2/tenis2.png', 'img/Produtos/Produto2/tenis3.png', '37', '38', '39', '40')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Sexto produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img src="img/Produtos/Foto tenis sem fundo/jd/aqui2/AirJordan1RetroHighOGLuckyGreen_Prancheta1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Sétimo produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img src="img/Produtos/Foto tenis sem fundo/jd/aqui2/jordan1uncaluminum_Prancheta1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                        <!-- Oitavo produto -->
+                        <div class="box1">
+                            <div class="shoes1">
+                                <img src="img/Produtos/Foto tenis sem fundo/jd/aqui2/AirJordan1MidIceBlue_Prancheta1-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div class="title-product">
+                                <p>Tênis Nike Air Max 90 Masculino</p>
+                            </div>
+                            <div class="price">
+                                <p>R$ <span>259,99</span></p>
+                            </div>
+                            <div class="btn">
+                                <button
+                                    onclick="verProduto('img/Produto/12.png', 'Tênis Nike Air Max 90 Masculino', '259.99', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')">ADQUIRIR</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="col-footer">
+            <div class="top">
+
+                <section class="box-help" id="box-help-1">
+                    
+                    <section class="title-help" >AJuda</section>
+
+                    <nav>
+                        <ul>
+                            <li><a href="">Duvidas</a></li>
+                            <li><a href="">Pedidos</a></li>
+                            <li><a href="">Encontre Seu Tamanho</a></li>
+                            <li><a href="">Devoluções</a></li>
+                            <li><a href="">Pagamentos</a></li>
+                            <li><a href="">Corporativo</a></li>
+                            <li><a href="">Fale Conosco</a></li>
+                        </ul>
+                    </nav>
+
+                </section>
+
+                <section class="box-help" id="box-help-2">
+                    
+                    <section class="title-help">Sobre Nos</section>
+
+                    <nav>
+                        <ul>
+                            <li><a href="">Sustentabiliade</a></li>
+                            <li><a href="">Sobre a X</a></li>
+                            <li><a href="">Localização</a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </nav>
+
+                </section>
+
+                <section class="box-help" id="box-help-3">
+            
+                    <section class="rede">
+
+                        <p class="title-help">Redes sociais</p>
+
+                        <section class="icons-footer" >
+                            <a href="" target="_blank"><img src="img/ICONS/instagram.png" alt=""></a>
+                            <a href="https://github.com/AllisonALDS" target="_blank" ><img src="img/ICONS/github.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/allison-a-500165255/" target="_blank" ><img src="img/ICONS/linkedin.png" alt=""></a>
+                        </section>
+
+                    </section>
+
+                    <section class="payment">
+
+                        <p class="title-help">Formas de Pagamento</p>
+
+                        <section class="icons-footer-card">
+                            <img src="img/ICONS/card.png" alt="">
+                            <img src="img/ICONS/visa.png" alt="">
+                            <img src="img/ICONS/paypal.png" alt="">
+                        </section>
+
+                    </section>
+                </section>
+
+            </div>
+            <div class="down">
+                <nav>
+                    <ul>
+                        <li><a href="" style="color: rgb(0, 235, 0);" >Brasil</a></li>
+                        <li><a href="">Politica de Privacidade</a></li>
+                        <li><a href="">Termos de Uso</a></li>
+                    </ul>
+                </nav>
+                <div class="by">
+                    <p>&copy; 2024 X Company. Todos os direitos reservados.</p>
+                    <p>Este conteúdo não pode ser reproduzido, distribuído ou alterado sem a autorização expressa do autor.</p>
+                    
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT DO SITE -->
+    <script>
+        function verProduto(imagem, preco, imagem2, imagem3, imagem4, marcaTenis) {
+
+            localStorage.clear();
+
+            // Armazena os dados no localStorage
+            localStorage.setItem('produtoImagem', imagem);
+            localStorage.setItem('produtoPreco', preco);
+
+            localStorage.setItem('produtoImagem2', imagem2);
+            localStorage.setItem('produtoImagem3', imagem3);
+            localStorage.setItem('produtoImagem4', imagem4);
+
+            localStorage.setItem('marcaTenis', marcaTenis);
+
+            // Redireciona para a página do produto
+            window.location.href = 'ProductPage.html';
+
+            /*BOTAO SELECIONADO*/
+
+
+
+        }
+    </script>
+</body>
+
+</html>
