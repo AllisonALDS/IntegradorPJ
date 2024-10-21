@@ -6,7 +6,6 @@
     text-decoration: none;
     font-family: Poppins;
 }
-
 .col-header {
     width: 100%;
     height: 70px;
@@ -80,7 +79,6 @@
         }
     }
 }
-
 .col-main {
     margin-bottom: 400px;
     display: flex;
@@ -178,8 +176,6 @@
         }
     }
 }
-
-
 .container {
     width: 1440px;
     height: 100vw;
@@ -475,7 +471,6 @@
         }
     }
 }
-
 .col-footer {
     width: 100%;
     height: 500px;
@@ -622,9 +617,6 @@
         }
     }
 }
-
-
-
 @keyframes go-back {
     from {
         transform: translateX(0px);
@@ -638,7 +630,6 @@
         scale: 101%;
     }
 }
-
 @keyframes nav {
     0% {
         transform: translateY(0);
