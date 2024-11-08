@@ -9,78 +9,139 @@
   <link rel="stylesheet" href="styles/font.css">
   <title>@AllisonDev</title>
 </head>
-
 <body>
+
   <!-- Link para Javascrip - NAO EXCLUIR -->
   <script type="module" src="./scripts/home.js" defer></script>
   <!-- Link para Javascrip - NAO EXCLUIR -->
+
+
+
   <header>
-    <div class="container-header">
-      <div class="logo">
-        <p>LOGOTIPO</p>
-        <div class="cep">
-          <i class="bi bi-geo-alt"></i>
-          <a href="">
-            <p>Atualizar CEP</p>
-          </a>
-        </div>
-      </div>
-      <section class="pesquisar" >
-          <input type="search" placeholder="Busque Aqui ">
-          <div class="user">
-            <a href=""><i class="bi bi-person-circle"></i></a>
-            <p>ENTRE ou <br>CADASTRA-SE</p>
-          </div>
+    <!-- CONTANER DO HEADER -->
+    <section class="col-header">
+      <section class="logo"><a href=""><img src="images/Logo-removebg-preview.png" alt=""></a></section>
+      <section class="topics">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">DESTAQUE</a></li>
+          <li><a href="#">HOMEM</a></li>
+          <li><a href="#">MULHER</a></li>
+        </ul>
       </section>
-      <section class="header-icons">
-        <a href=""><i class="bi bi-info-circle"></i></a>
-        <a href="checkout.html"><i class="bi bi-cart-fill"></i></a>
-        <a href=""><i class="bi bi-people-fill"></i></a>
-      </section>
-    </div>
-    <div class="container-line">
       <nav>
         <ul>
-          <a href=""><li>CUPONS</li></a>
-          <a href=""><li>|</li></a>
-          <a href=""><li>FRETE GRATIS</li></a>
-          <a href=""><li>|</li></a>
-          <a href=""><li>OFERTAS DO DIA</li></a>
-          <a href=""><li>|</li></a>
-          <a href=""><li>HARDWARE</li></a>
-          <a href=""><li>|</li></a>
-          <a href=""><li>COMPUTADORES</li></a>
-          <a href=""><li>|</li></a>
-          <a href=""><li>PERIFÉRICOS</li></a>
-          <a href=""><li>|</li></a>
-          <a href=""><li>GAMER</li></a>
+          <section class="search">
+            <input type="search" placeholder="Buscar">
+          </section>
+          <li><i class="bi bi-cart-fill"></i></li>
+          <li><i class="bi bi-person-fill"></i></li>
         </ul>
       </nav>
-    </div>
+    </section>
   </header>
+
   <main>
-    <div class="container-main">
-      <section id="section-1" class="section-product-carrousel">
-        <div class="carrousel">
-          <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+    <div class="col-main">
+
+      <div class="text-princ">
+        <div class="title">
+          <p>Chuteira</p>
+          <h2>Nike Mercurial </h2>
         </div>
-      </section>
-      <section id="section-2" class="section-product-carrousel">
-        <div class="carrousel">
-          <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+        <!-- Descrição genérica com Lorem Ipsum -->
+        <div class="sub">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+            the industry's standard dummy text ever since the 1500s, </p>
         </div>
-      </section>
+        <!-- Preço do produto e botão para adquiri-lo -->
+        <div class="btn">
+          <p>R$259,99</p>
+          <!-- Botão que chama a função verProduto com os detalhes do produto -->
+          <button
+            onclick="verProduto('images/Produtos/Produto1/pngwing.com.png', 259.99, 'images/Produtos/Produto1/pngwing.com.png', 'images/Produtos/Produto1/chuteira2.webp', 'images/Produtos/Produto1/chuteira3.webp', 'Nike')">ADQUIRIR</button>
+        </div>
+        <!-- Ícones de redes sociais para compartilhar ou seguir -->
+        <div class="icons">
+          <div class="link">
+            <a href="https://github.com/AllisonALDS" target="_blank"><img src="images/ICONS/github.png" alt=""></a>
+          </div>
+          <div class="link">
+            <a href="https://www.linkedin.com/in/allison-a-500165255/" target="_blank"><img
+                src="images/ICONS/linkedin.png" alt=""></a>
+          </div>
+          <div class="link">
+            <a href=""><img src="images/ICONS/instagram.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <!-- Imagem da chuteira principal -->
+      <div class="product">
+        <img src="images/Produtos/Produto1/pngwing.com.png" alt="">
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="col-main2">
+        <!-- Título da seção de produtos em destaque -->
+        <div class="title">
+          <h1>Produtos Em Destaque</h1>
+        </div>
+        <section>
+          <section id="section-1" class="section-product-carrousel">
+            <div class="carrousel">
+              <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+            </div>
+          </section>
+        </section>
+      </div>
+
+      <div class="col-main2">
+        <!-- Título da seção de produtos em destaque -->
+        <div class="title">
+          <h1>Novidades</h1>
+        </div>
+        <section>
+          <section id="section-1" class="section-product-carrousel">
+            <div class="carrousel">
+              <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+            </div>
+          </section>
+        </section>
+      </div>
+
+
+
     </div>
   </main>
-  <footer>
-
-  </footer>
-
 
 </body>
-
 </html>
 
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+ -->
+
+
+
+<section id="section-2" class="section-product-carrousel">
+  <div class="carrousel">
+    <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+  </div>
+</section>
 
 
 <!-- Componente Carrousel de Produtos -->
